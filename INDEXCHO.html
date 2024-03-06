@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORLD CHOCOLATES</title>
+    <link rel="stylesheet" href="indexcss.css">
+</head>
+<body>
+    <header>
+        <h1> WORLD CHOCOLATES!!!</h1>
+        
+        <nav>
+            <ul>
+                <a href="#about">About</a>
+                &nbsp;&nbsp;
+                <a href="#contact">Contact Us</a>&nbsp;&nbsp;
+                <a href="#ordernow">Order now</a>
+            </ul>
+        </nav>
+    </header>
+    <section class="main-content">
+        <h2>Introducing Our New Chocolate Collection</h2>
+        <hr>
+      <div class="product-container">
+        
+        <div class="product-image">
+          <figure>
+           
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Green_and_Black%27s_dark_chocolate_bar_2.jpg/1280px-Green_and_Black%27s_dark_chocolate_bar_2.jpg" alt="Chocolate Product 1" width="200px",height="200px">
+   </figure>
+           <div class= "Product-Description">  <figcaption><h3>Dark Chocolates</h3>It is a most flavored chocolates<br> among all chocolates<br>to know more about taste<br> place an order now  <br><a href="#ordernow" class="btn">order now</a></figcaption>
+ 
+ </div>
+ </div>
+ <div class="product-image">
+    <figure> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Chocolate-branco-2.webp/1024px-Chocolate-branco-2.webp.png" alt="Chocolate Product 2" width="200px",height="200px">
+          </figure>
+          <div class="Product-Description">
+            
+          <figcaption><h3>White Chocolates</h3> It is a most flavored chocolates<br> among all chocolates<br>to know more about taste <br>place an order now <br><a href="#ordernow" class="btn">order now</a></figcaption>
+           
+           
+           </div>
+           </div>
+           <div>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+           <div class="product-image">
+            <figure> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Milka_Alpine_Milk_Chocolate_bar_100g_with_chunks_broken_off.jpg/1920px-Milka_Alpine_Milk_Chocolate_bar_100g_with_chunks_broken_off.jpg" alt="Chocolate Product 3" width="200px",height="200px">
+            </figure>
+            <div class="Product-Description">
+ <figcaption><h3>Milk Chocolates</h3>It is a most flavored chocolates<br> among all chocolates<br>to know more about taste<br> place  an order  now<br><a href="#ordernow" class="btn">ordernow</a></figcaption>
+        
+        
+       
+       </div>
+       </div>
+       </div>
+       <div class="product-image">
+        <figure>
+         
+          <img src="https://images.squarespace-cdn.com/content/v1/5b057772c258b498784ac1cb/1547812347192-D1EMGEXU9B3F23ZFFXNN/ruby.png?format=750w" alt="Chocolate Product 1" width="200px",height="460px">
+ </figure>
+         <div class= "Product-Description">  <figcaption><h3>Ruby Chocolates</h3>It is a most flavored chocolates<br> among all chocolates<br>to know more about taste <br>place an order now  <br><a href="#ordernow" class="btn">order now</a></figcaption>
+
+</div>
+</div>
+<div class="product-image">
+    <figure>
+     
+      <img src="https://www.shutterstock.com/image-photo/chocolate-candy-isolated-on-white-600nw-2045083331.jpg" alt="Chocolate Product 1" width="200px",height="460px">
+</figure>
+     <div class= "Product-Description">  <figcaption><h3>Candy Chocolates</h3>It is a most flavored chocolates<br> among all chocolates<br>to know more about taste <br>place an order now  <br><a href="#ordernow" class="btn">order now</a></figcaption>
+
+</div>
+</div>
+      <hr>
+        <p>Indulge in the rich flavors of our premium chocolate bars. Crafted with the finest ingredients, our chocolates are sure to satisfy your sweet cravings.</p>
+      <br>  <a href="#about" class="btn">Learn More</a>
+    </section>
+    <hr>
+    <section id="about" class="about-section">
+        <h2>About Our Chocolates</h2>
+        <p>Our chocolates are made from sustainably sourced cocoa beans, ensuring the highest quality and ethical standards. From classic milk chocolate to exotic dark chocolate blends, there's something for every chocolate lover.</p>
+        <a href="#contact" class="btn">Contact Us</a>
+    </section>
+    <header>
+        <h1>Order Your Chocolates Now!</h1>
+    </header>
+    <main>
+        <section id="ordernow"class="header">
+        <form action="submit_order.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address" rows="3" column="15" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="product">Select Chocolate Type:</label>
+                <select id="product" name="product" required>
+                    <option value="milk_chocolate">Milk Chocolate</option>
+                    <option value="dark_chocolate">Dark Chocolate</option>
+                    <option value="white_chocolate">White Chocolate</option>
+                    <option value="white_chocolate">Ruby Chocolate</option>
+                    <option value="white_chocolate">Candy Chocolate</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+            </div>
+            <a href="#ordernow"class="btn">Order now</a>
+            
+        </form>
+        </section>
+    </main>
+    
+    <footer id="contact" class="footer">
+        <h2>Contact Us</h2>
+        <p>For inquiries or to place an order, please contact us at:</p>
+        <p>Email: info@chocolatelaunch.com</p>
+        <p>Phone: 1-800-CHOCO-LOVE</p>
+        
+    </footer>
+</body>
+</html>
